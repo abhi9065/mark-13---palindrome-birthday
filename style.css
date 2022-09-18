@@ -1,0 +1,23 @@
+.container{
+
+    border: 2px solid white;
+    height: 45rem;
+}
+
+.container{
+
+    text-align: center;
+    color: white;
+}
+.heading{
+
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
+
+}
+
+body{
+
+    background-color: rgb(8, 27, 36);
+}
