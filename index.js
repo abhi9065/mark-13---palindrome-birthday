@@ -186,7 +186,11 @@ function clickHandler(e){
         var [ctr, nextDate] = getNextPalindromeDate(date);
         resultRef.innerText = `the next palimdrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} days!`
      }
- }
+ }else{
+    resultRef.innerText = 'please enter  the feild  first'
+
+        
+     }
 }
 
 
